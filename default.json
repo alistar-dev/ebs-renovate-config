@@ -6,7 +6,11 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
-      "enabled": false
+      "enabled": false,
+    },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "1 day"
     }
   ],
   "timezone": "CET",
