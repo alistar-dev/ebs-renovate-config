@@ -11,6 +11,10 @@
     {
       "matchDatasources": ["npm"],
       "minimumReleaseAge": "1 day"
+    },
+    {
+      "matchSourceUrls": ["https://github.com/triggerdotdev/trigger.dev"],
+      "groupName": "trigger.dev monorepo packages"
     }
   ],
   "timezone": "CET",
