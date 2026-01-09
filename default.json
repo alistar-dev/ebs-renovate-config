@@ -11,6 +11,16 @@
     {
       "matchSourceUrls": ["https://github.com/triggerdotdev/trigger.dev"],
       "groupName": "trigger.dev monorepo packages"
+    },
+    {
+      "description": "Group all NatchOS packages together",
+      "groupName": "NatchOS",
+      "patch": {
+        "enabled": true
+      },
+      "matchPackageNames": [
+        "NatchOS.{/,}**"
+      ]
     }
   ],
   "timezone": "CET",
