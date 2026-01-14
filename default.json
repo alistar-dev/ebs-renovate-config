@@ -21,6 +21,26 @@
       "matchPackageNames": [
         "NatchOS.{/,}**"
       ]
+    },
+    {
+      "description": "Group all NatchCms packages together",
+      "groupName": "NatchCms",
+      "patch": {
+        "enabled": true
+      },
+      "matchPackageNames": [
+        "NatchCms.{/,}**"
+      ]
+    },
+    {
+      "description": "Group all Natch packages together",
+      "groupName": "Natch",
+      "patch": {
+        "enabled": true
+      },
+      "matchPackageNames": [
+        "Natch.{/,}**"
+      ]
     }
   ],
   "timezone": "CET",
