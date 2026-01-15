@@ -41,6 +41,10 @@
       "matchPackageNames": [
         "Natch.{/,}**"
       ]
+    },
+    {
+      "matchPackageNames": ["Autofac.Extensions.DependencyInjection"],
+      "abandonmentThreshold": null
     }
   ],
   "timezone": "CET",
