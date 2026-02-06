@@ -3,6 +3,7 @@
   "semanticCommits": "enabled",
   "prConcurrentLimit": 5,
   "labels": ["dependencies"],
+  "ignoreDeps": ["AutoMapper", "FluentAssertions"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
