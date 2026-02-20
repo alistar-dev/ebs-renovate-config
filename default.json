@@ -3,7 +3,7 @@
   "semanticCommits": "enabled",
   "prConcurrentLimit": 5,
   "labels": ["dependencies"],
-  "ignoreDeps": ["AutoMapper", "FluentAssertions"],
+  "ignoreDeps": ["AutoMapper"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
@@ -46,6 +46,13 @@
     {
       "matchPackageNames": ["Autofac.Extensions.DependencyInjection", "NSubstitute"],
       "abandonmentThreshold": null
+    },
+    {
+      "matchManagers": ["nuget"],
+      "matchPackageNames": ["FluentAssertions"],
+      "replacementName": "AwesomeAssertions",
+      "enabled": false,
+      "description": "FluentAssertions is forbidden; automatically replaced with AwesomeAssertions."
     }
   ],
   "timezone": "CET",
