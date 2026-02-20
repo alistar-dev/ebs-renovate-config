@@ -48,11 +48,14 @@
       "abandonmentThreshold": null
     },
     {
-      "matchManagers": ["nuget"],
-      "matchPackageNames": ["FluentAssertions"],
+      "matchDatasources": [
+        "nuget"
+      ],
+      "matchPackageNames": [
+        "FluentAssertions"
+      ],
       "replacementName": "AwesomeAssertions",
-      "enabled": false,
-      "description": "FluentAssertions is forbidden; automatically replaced with AwesomeAssertions."
+      "description": "FluentAssertions is forbidden; replace with AwesomeAssertions."
     }
   ],
   "timezone": "CET",
