@@ -44,7 +44,7 @@
       ]
     },
     {
-      "matchPackageNames": ["Autofac.Extensions.DependencyInjection"],
+      "matchPackageNames": ["Autofac.Extensions.DependencyInjection", "NSubstitute"],
       "abandonmentThreshold": null
     }
   ],
