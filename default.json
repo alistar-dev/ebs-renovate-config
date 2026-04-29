@@ -4,6 +4,7 @@
   "prConcurrentLimit": 5,
   "labels": ["dependencies"],
   "ignoreDeps": ["AutoMapper", "node"],
+  "postUpdateOptions": ["pnpmDedupe"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
