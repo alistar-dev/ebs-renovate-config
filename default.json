@@ -3,7 +3,7 @@
   "semanticCommits": "enabled",
   "prConcurrentLimit": 5,
   "labels": ["dependencies"],
-  "ignoreDeps": ["AutoMapper"],
+  "ignoreDeps": ["node"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
@@ -68,6 +68,16 @@
       ],
       "replacementName": "AwesomeAssertions",
       "description": "FluentAssertions is forbidden; replace with AwesomeAssertions."
+    },
+    {
+      "matchDatasources": [
+        "nuget"
+      ],
+      "matchPackageNames": [
+        "AutoMapper"
+      ],
+      "replacementName": "Mapster",
+      "description": "AutoMapper is forbidden; replace with Mapster."
     }
   ],
   "timezone": "CET",
