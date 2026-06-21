@@ -10,6 +10,11 @@
       "enabled": false
     },
     {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "GitHub Actions (non-major)"
+    },
+    {
       "matchSourceUrls": ["https://github.com/triggerdotdev/trigger.dev"],
       "groupName": "trigger.dev monorepo packages"
     },
