@@ -15,18 +15,6 @@
       "groupName": "GitHub Actions (non-major)"
     },
     {
-      "matchManagers": ["nuget"],
-      "postUpgradeTasks": {
-        "commands": [
-          "dotnet restore --force-evaluate"
-        ],
-        "fileFilters": [
-          "**/packages.lock.json"
-        ],
-        "executionMode": "branch"
-      }
-    },
-    {
       "matchSourceUrls": ["https://github.com/triggerdotdev/trigger.dev"],
       "groupName": "trigger.dev monorepo packages"
     },
