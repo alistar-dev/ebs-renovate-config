@@ -1,7 +1,7 @@
 {
   "extends": ["config:best-practices"],
   "semanticCommits": "enabled",
-  "prConcurrentLimit": 5,
+  "prConcurrentLimit": 3,
   "labels": ["dependencies"],
   "ignoreDeps": ["node"],
   "packageRules": [
