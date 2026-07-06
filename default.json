@@ -4,6 +4,11 @@
   "prConcurrentLimit": 3,
   "labels": ["dependencies"],
   "ignoreDeps": ["node"],
+  "timezone": "CET",
+  "schedule": [
+    "* 0-7 * * 1-5"
+  ],
+  "abandonmentThreshold": "2 years",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
@@ -84,10 +89,5 @@
       "replacementName": "Mapster",
       "description": "AutoMapper is forbidden; replace with Mapster."
     }
-  ],
-  "timezone": "CET",
-  "schedule": [
-    "* 0-7 * * 1-5"
-  ],
-  "abandonmentThreshold": "2 years"
+  ]
 }
