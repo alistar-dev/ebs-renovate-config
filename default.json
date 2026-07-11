@@ -76,8 +76,11 @@
       "matchPackageNames": [
         "FluentAssertions"
       ],
-      "replacementName": "AwesomeAssertions",
-      "description": "FluentAssertions is forbidden; replace with AwesomeAssertions."
+      "dependencyDashboardNotes": [
+        "⚠️ FluentAssertions should not be used anymore. Use AwesomeAssertions instead. This requires small code changes and cannot be performed automatically."
+      ],
+      "description": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
+      "labels": ["deprecated-library"]
     },
     {
       "matchDatasources": [
@@ -86,8 +89,11 @@
       "matchPackageNames": [
         "AutoMapper"
       ],
-      "replacementName": "Mapster",
-      "description": "AutoMapper is forbidden; replace with Mapster."
+      "dependencyDashboardNotes": [
+        "⚠️ AutoMapper should not be used anymore. Use Mapster instead. This requires code changes and cannot be performed automatically."
+      ],
+      "description": "AutoMapper is forbidden; replace with Mapster.",
+      "labels": ["deprecated-library"]
     }
   ]
 }
