@@ -5,9 +5,7 @@
   "labels": ["dependencies"],
   "ignoreDeps": ["node"],
   "timezone": "CET",
-  "schedule": [
-    "* 0-7 * * 1-5"
-  ],
+  "schedule": ["* 0-7 * * 1-5"],
   "abandonmentThreshold": "2 years",
   "packageRules": [
     {
@@ -24,93 +22,61 @@
       "groupName": "trigger.dev monorepo packages"
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
+      "matchDatasources": ["nuget"],
       "description": "Group all NatchOS packages together",
       "groupName": "NatchOS",
       "patch": {
         "enabled": true
       },
-      "matchPackageNames": [
-        "NatchOS.{/,}**"
-      ]
+      "matchPackageNames": ["NatchOS.{/,}**"]
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
+      "matchDatasources": ["nuget"],
       "description": "Group all NatchCms packages together",
       "groupName": "NatchCms",
       "patch": {
         "enabled": true
       },
-      "matchPackageNames": [
-        "NatchCms.{/,}**"
-      ]
+      "matchPackageNames": ["NatchCms.{/,}**"]
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
+      "matchDatasources": ["nuget"],
       "description": "Group all Natch packages together",
       "groupName": "Natch",
       "patch": {
         "enabled": true
       },
-      "matchPackageNames": [
-        "Natch.{/,}**"
-      ]
+      "matchPackageNames": ["Natch.{/,}**"]
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
+      "matchDatasources": ["nuget"],
       "matchPackageNames": ["Autofac.Extensions.DependencyInjection", "NSubstitute"],
       "abandonmentThreshold": null
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
-      "matchPackageNames": [
-        "FluentAssertions"
-      ],
+      "matchDatasources": ["nuget"],
+      "matchPackageNames": ["FluentAssertions"],
       "replacementName": "AwesomeAssertions",
-      "dependencyDashboardNotes": [
-        "⚠️ FluentAssertions should not be used anymore. Use AwesomeAssertions instead. This requires small code changes and cannot be performed automatically."
-      ],
-      "description": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
-      "matchPackageNames": [
-        "AutoMapper"
-      ],
+      "matchDatasources": ["nuget"],
+      "matchPackageNames": ["AutoMapper"],
       "replacementName": "Mapster",
-      "dependencyDashboardNotes": [
-        "⚠️ AutoMapper should not be used anymore. Use Mapster instead. This requires code changes and cannot be performed automatically."
-      ],
-      "description": "AutoMapper is forbidden; replace with Mapster.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "AutoMapper is forbidden; replace with Mapster.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
     {
-      "matchDatasources": [
-        "nuget"
-      ],
-      "matchPackageNames": [
-        "Verify"
-      ],
+      "matchDatasources": ["nuget"],
+      "matchPackageNames": ["Verify"],
       "replacementName": "Snapshooter",
-      "dependencyDashboardNotes": [
-        "⚠️ Verify should not be used anymore. Use Snapshooter instead. This requires code changes and cannot be performed automatically."
-      ],
-      "description": "Verify is forbidden; replace with Snapshooter.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "Verify is forbidden; replace with Snapshooter.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     }
