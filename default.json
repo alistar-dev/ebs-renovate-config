@@ -57,7 +57,8 @@
       "matchDatasources": ["nuget"],
       "matchPackageNames": ["FluentAssertions"],
       "replacementName": "AwesomeAssertions",
-      "prTitle": "⚠️ FluentAssertions is forbidden; replace with AwesomeAssertions.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
@@ -65,7 +66,8 @@
       "matchDatasources": ["nuget"],
       "matchPackageNames": ["AutoMapper"],
       "replacementName": "Mapster",
-      "prTitle": "⚠️ AutoMapper is forbidden; replace with Mapster.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "AutoMapper is forbidden; replace with Mapster.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
@@ -73,7 +75,8 @@
       "matchDatasources": ["nuget"],
       "matchPackageNames": ["Verify"],
       "replacementName": "Snapshooter",
-      "prTitle": "⚠️ Verify is forbidden; replace with Snapshooter.",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "Verify is forbidden; replace with Snapshooter.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     }
