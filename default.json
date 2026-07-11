@@ -77,9 +77,6 @@
         "FluentAssertions"
       ],
       "replacementName": "AwesomeAssertions",
-      "dependencyDashboardNotes": [
-        "⚠️ FluentAssertions should not be used anymore. Use AwesomeAssertions instead. This requires small code changes and cannot be performed automatically."
-      ],
       "description": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
@@ -92,9 +89,6 @@
         "AutoMapper"
       ],
       "replacementName": "Mapster",
-      "dependencyDashboardNotes": [
-        "⚠️ AutoMapper should not be used anymore. Use Mapster instead. This requires code changes and cannot be performed automatically."
-      ],
       "description": "AutoMapper is forbidden; replace with Mapster.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
@@ -107,9 +101,6 @@
         "Verify"
       ],
       "replacementName": "Snapshooter",
-      "dependencyDashboardNotes": [
-        "⚠️ Verify should not be used anymore. Use Snapshooter instead. This requires code changes and cannot be performed automatically."
-      ],
       "description": "Verify is forbidden; replace with Snapshooter.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
