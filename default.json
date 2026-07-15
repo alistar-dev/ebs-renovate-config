@@ -79,6 +79,12 @@
       "commitMessageSuffix": "Verify is forbidden; replace with Snapshooter.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
+      "matchCurrentVersion": "/^0\\./",
+      "enabled": false
     }
   ]
 }
