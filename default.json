@@ -84,6 +84,15 @@
       "dependencyDashboardApproval": true
     },
     {
+      "matchDatasources": ["nuget"],
+      "matchPackageNames": ["Polly"],
+      "replacementName": "Paramore.Fences",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "Polly is not cool anymore; replace with Paramore.Fences.",
+      "labels": ["deprecated-library"],
+      "dependencyDashboardApproval": true
+    },
+    {
       "matchDatasources": ["npm"],
       "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
       "matchCurrentVersion": "/^0\\./",
