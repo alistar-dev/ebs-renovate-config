@@ -61,7 +61,7 @@
       "matchPackageNames": ["FluentAssertions"],
       "replacementName": "AwesomeAssertions",
       "commitMessagePrefix": "⚠️",
-      "commitMessageSuffix": "FluentAssertions is forbidden; replace with AwesomeAssertions.",
+      "commitMessageSuffix": "FluentAssertions is not cool anymore; replace with AwesomeAssertions.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
@@ -70,7 +70,7 @@
       "matchPackageNames": ["AutoMapper"],
       "replacementName": "Mapster",
       "commitMessagePrefix": "⚠️",
-      "commitMessageSuffix": "AutoMapper is forbidden; replace with Mapster.",
+      "commitMessageSuffix": "AutoMapper is not cool anymore; replace with Mapster.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
@@ -79,7 +79,7 @@
       "matchPackageNames": ["Verify"],
       "replacementName": "Snapshooter",
       "commitMessagePrefix": "⚠️",
-      "commitMessageSuffix": "Verify is forbidden; replace with Snapshooter.",
+      "commitMessageSuffix": "Verify is not cool anymore; replace with Snapshooter.",
       "labels": ["deprecated-library"],
       "dependencyDashboardApproval": true
     },
