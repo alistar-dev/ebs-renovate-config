@@ -58,6 +58,24 @@
     },
     {
       "matchDatasources": ["nuget"],
+      "matchPackageNames": ["Natch.FluentEmailContrib"],
+      "replacementName": "Alistar.FluentEmailContrib",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "Alistar.FluentEmailContrib uses the newer jcamp.FluentEmail packages",
+      "labels": ["deprecated-library"],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchDatasources": ["nuget"],
+      "matchPackageNames": ["FluentEmail.Core"],
+      "replacementName": "jcamp.FluentEmail.Core",
+      "commitMessagePrefix": "⚠️",
+      "commitMessageSuffix": "The newer for should be used - original is abandoned.",
+      "labels": ["deprecated-library"],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchDatasources": ["nuget"],
       "matchPackageNames": ["FluentAssertions"],
       "replacementName": "AwesomeAssertions",
       "commitMessagePrefix": "⚠️",
